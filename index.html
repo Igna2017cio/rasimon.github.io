@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CV RUBEN SIMON</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#perfil">Perfil Profesional</a>
+                    <a href="#formación">Formación</a>
+                    <a href="#habilidades">Habiidades</a>
+                    <a href="#experiencia">Experiencia</a>
+                    <a href="#adicional">Información Adicional</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+            <div class="info">
+                <h1>Ruben A. Simon</h1>
+                <h2>Desarrollador Web</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+    
+    <aside>
+        <section class="perfil profesional" id="perfil profesional">
+        <h2 id="perfil profesional">Perfil Profesional</h2>
+        <span>Desarrollador web innovador, proactivo y con capacidad para desarrollar páginas web elegantes 
+            y pioneras y diseños de aplicaciones para clientes exigentes. Organizado y con capacidad de 
+            multitarea con experiencia en programación de proyectos, mejora de diseños y verificación del 
+            código. Habilidades de desarrollo web y aplicaciones móviles para una posición estimulante en una 
+            compañía moderna, abierta y profesional.</span>
+        </section>
+
+        <section class="formación" id="formación"></section>
+        <h3 id="formación">Formación</h3>
+    <ul>
+        <li>2014
+            Universidad de Oviedo
+            Ingeniería Informática</li>
+        <li>2015 
+            Universidad de Oviedo
+            Máster en Desarrollo Web y de Aplicaciones Móviles</li>
+    </ul>
+    </section>
+
+    <section class="experiencia" id="experiencia">
+    <h3 id="experiencia">Experiencia</h3>
+    <ul>
+        <li>Apoyo técnico al ciclo completo del proyecto, desde el briefing inicial, pasando por wireframes, 
+            diseño web, maquetación, desarrollo, programación y la publicación final.</li>
+        <li>Participación en proyectos de software libre.</li>
+        <li>Trabajo con distintas bases de datos y contextos back-end y front-end.</li>
+        <li>Rediseño de sitios web para mejorar la navegación y su atractivo visual.</li>
+        <li>Creación de páginas de destino, paneles de control y aplicaciones web utilizando Python, HTML5 y SQL</li>
+        <li>Validación de códigos para una estructuración adecuada, seguridad y compatibilidad con diferentes
+             buscadores, dispositivos o sistemas operativos.</li>
+        <li>Posicionamiento y desarrollo de estrategias de marketing web y en buscadores. Soporte, configuración 
+                y resolución de servidores.</li>
+        <li>Creación e implementación de cortafuegos, estrategias de encriptación y otras medidas críticas de 
+            seguridad.</li>
+    </ul>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+    <h3 id="habilidades">Habilidades</h3>
+    <ul>
+        <li>Alta capacidad resolutiva</li>
+        <li>Páginas web dinámicas</li>
+        <li>Perfil polivalente y versátil</li>
+        <li>Solución creativa a problemas</li>
+        <li>Gestión de sitios web</li>
+        <li>Diseño de páginas web corporativas</li>
+    </ul>
+    </section>
+
+    <section class="información adicional" id="información adicional">
+    <h3 id="información adicional">Información Adicional</h3>
+    <p id="parrafo">Idiomas: Español, Árabe Idioma nativo</p>
+    <p>Inglés: C1 Avanzado</p>
+    <p>Lenguajes de programación: 
+        Javascript, Node.js, Python, Java, C#, C++, PHP, Perl</p>
+    <p>SI BIEN MI LUGAR DE RESIDENCIA ES LA CIUDAD DE LIMA, EN PERÚ, ME INTERESA LA POSIBILIDAD DE RADICARME
+         EN CUALQUIER OTRO LUGAR POR TRABAJO</p>
+        <button id="boton1" type="button" class="btn tw" onclick="document.getElementById('oculto1').style.display = 'block';document.getElementById('boton1').style.display = 'none';document.getElementById('boton2').style.display = 'block';">Mostrar Imágenes</button>
+
+        <div id="oculto1" style="display: none;">
+            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+            <img src="https://img.freepik.com/foto-gratis/cerrar-hombre-escribiendo-codigo-computadora-portatil_158595-5169.jpg?size=626&ext=jpg&ga=GA1.1.1890699590.1677329822&semt=sph" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+            <img src="https://img.freepik.com/foto-gratis/programacion-php-codificacion-html-concepto-ciberespacio_53876-124783.jpg?size=626&ext=jpg&ga=GA1.1.1890699590.1677329822&semt=sph" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+            <img src="https://img.freepik.com/fotos-premium/resumen-tecnologia-moderna-desarrollador-pantalla-codigo-programacion-c-lenguaje-programacion-secuencias-comandos-computadora_505353-91.jpg?size=626&ext=jpg&ga=GA1.1.1890699590.1677329822&semt=sph" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+            <img src="https://img.freepik.com/foto-gratis/diseno-web-online_53876-95309.jpg?size=626&ext=jpg&ga=GA1.1.1890699590.1677329822&semt=sph" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+            <img src="https://thumbs.dreamstime.com/b/programador-escribir-c%C3%B3digo-en-computadoras-de-escritorio-desarrollar-el-concepto-tecnolog%C3%ADas-programaci%C3%B3n-y-codificaci%C3%B3n-168725710.jpg" alt="La imagen no puede visualizarse en su navegador" height="300px" width="300px">
+        
+            <button id="boton2" type="button" class="btn tw" onclick="document.getElementById('oculto1').style.display = 'none';document.getElementById('boton2').style.display = 'none';document.getElementById('boton1').style.display = 'block';">Ocultar Imágenes</button>
+        <div>
+    </aside>
+    <footer>
+    </section>
+
+    <section class="contacto" id="contacto">
+     <h3 id="contacto">Contacto</h3>
+    <ul>
+        <li> 992345-59948666</li>
+        <li> RASIMON@YAHOO.COM</li>
+        <li> Lima, PERÚ</li>
+    </ul>
+    <h3>Formulario de Contacto</h3>
+    <form action="CONTACTO" method="get">
+            <label for="NOMBRE Y APELLIDO">NOMBRE Y APELLIDO</label>
+            <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" required/>
+
+            <label for="E-MAIL">E-MAIL</label>
+            <input type="email" name="E-MAIL" placeholder="E-MAIL" required/>
+
+            <label for="TELEFONO">NÚMERO DE TELÉFONOO</label>
+            <input type="number" name="Número de Teléfono" placeholder="Número de Teléfono"/>
+
+            <label for="MENSAJE">MENSAJE</label>
+            <textarea name="mensaje" for="mensaje" placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+            <input type="submit"></input>
+    </form>
+    </section>
+    </footer>
+</body>
+</html>

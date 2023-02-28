@@ -1,0 +1,136 @@
+
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://thumbs.dreamstime.com/b/programador-escribir-c%C3%B3digo-en-computadoras-de-escritorio-desarrollar-el-concepto-tecnolog%C3%ADas-programaci%C3%B3n-y-codificaci%C3%B3n-168725710.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header nav{
+    background-color: #e5eeb4;
+}
+
+
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #050294;
+    border: 1px solid #110294;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    background-color: #2e0294;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+body {
+    background-color: rgb(110, 110, 190);
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+    white-space: normal;
+    word-spacing: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: #f2f0f7;
+    background-color: #020c0f;
+    box-shadow: 0 0 20px #2049ce;
+}
+
+aside {
+    width: 74%;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    float: right;
+    font-style: normal;
+    background-color: antiquewhite;
+}
+
+footer {
+    text-align: left;
+    font-style: normal;
+  }
+
+form  {
+    width: 300px;
+    padding: 2px;
+}
+
+label {
+    display: block;
+    padding: 5px; 
+} 
+
+input {
+    padding: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+textarea {
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+button {
+    width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000; 
+}
